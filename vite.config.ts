@@ -6,6 +6,6 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   plugins: [tailwindcss(), sveltekit(), devtoolsJson()],
   server: {
-    allowedHosts: ['.daytona.works']
+    allowedHosts: ['.e2b.app', '.e2b.dev']
   }
 });
